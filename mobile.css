@@ -55,7 +55,7 @@ header{
     background-image: url(./images/mobile-back.png);
     background-size:cover;
     background-repeat: no-repeat;
-    width: 417px;
+    width: 380px;
     height: 847px;
   
 }
@@ -91,6 +91,7 @@ header{
 }
 .hid{
     display: block;
+    width: 357px;
 }
 /* section 3 */
 
@@ -102,7 +103,15 @@ header{
     justify-content: space-around;
 }
 
+.sec3-txt{
+    margin-left: 15px;
 
+}
+.sec3-img img {
+    width: 370px;
+    margin-left: 10px;
+
+}
 /* section 4 */
 .section4{
     display: flex;
@@ -114,7 +123,12 @@ header{
     display: none;
 }
 .sec4-mob{
-display: block;
+   display: block;
+   width: 300px;
+   margin-left:5px ;
+}
+.sec4-img img{
+    width: 400px;
 }
 .sec4link{
     display: flex;
@@ -161,6 +175,7 @@ display: block;
 }
 .sec4-0{
     display: block;
+    margin-left: 25px;
 }
 
 .news-1{
@@ -201,7 +216,10 @@ margin: 10px;
     align-items: center;
 
 }
-
+.section6 h4{
+    margin: 17px;
+    padding: 10px;
+}
 
 /* section 7 */
 
@@ -222,10 +240,14 @@ margin: 10px;
 .section7{
     background-color: rgb(15, 15, 56);
     height: 1500px;
+     width: 425px;
     
 }
 
 /* section 8 */
+.section-8{
+    margin-left: 10px;
+}
 .sec8-2{
     display: flex;
     flex-direction: column;
@@ -247,6 +269,7 @@ footer{
    
     background-color: rgb(15, 15, 56);
    height: 1000px;
+   width: 420px;
 }
 
 .foot-4div{
